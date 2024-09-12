@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgers V1Lanxs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img-hamburg/icon-burg.png" type="image/x-icon">
+</head>
+<body>
+
+                        <!--HEADER & NAV-->
+    <header>
+        <nav>
+            <ul class="nav">
+
+                <li >  
+                    <a class="item__link" href="#">Home</a>
+                </li>
+
+                <li>  
+                    <a class="item__link" href="#pedidos">Pedidos</a>
+                </li>
+
+                <li>  
+                    <a class="item__link" href="#menu">Menu</a>
+                </li>
+
+                    <a href="#">  <img class="nav__icon" src="img-hamburg/icon-burg.png" alt="icono de la pagina">  </a>  
+
+                <li>  
+                    <a class="item__link" href="#sucursales">Sucursales</a>
+                </li>
+
+                <li>  
+                    <a class="item__link" href="#nuestrolocal">Nuestro Local</a>
+                </li>
+
+                <li>  
+                    <a class="item__link"href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hed-princ">
+            <h1 class="hed-princ__tittle">Burgers V1Lanxs</h1>
+            <h2 class="hed-princ__subtittle">Buenos Aires - C.A.B.A y GBA</h2>
+            <p class="hed-princ__text">Las mejores Smash Burgers de la zona!</p>
+        </div>
+    </header>
+
+                        <!--SECTIONS CON TARJETAS DE INTERACCION-->
+
+    <main>
+        <section class="sect-cards">
+
+            <div id="pedidos" class="sect-cards__cards">
+                <ion-icon class="iconos" name="notifications-outline"></ion-icon>
+                <h2 class="cards__subtittle">Pedidos</h2>
+                <a class="cards__link" href="#">Encargar</a>
+            </div>
+
+            <div id="menu" class="sect-cards__cards">
+                <ion-icon class="iconos" name="document-text-outline"></ion-icon>
+                <h2 class="cards__subtittle">Menu</h2>
+                <a class="cards__link" href="/ProyectHamburg/img-hamburg/menu.pdf" download>Consultar</a>
+            </div>
+
+            <div class="sect-cards__cards">
+                <ion-icon  class="iconos" name="logo-instagram"></ion-icon>
+                <h2 class="cards__subtittle">Club</h2>
+                <a class="cards__link" href="https://www.instagram.com/burgermania.hamb/" target="blank">Ser fan</a>
+            </div>
+
+        </section>
+
+                        <!--Articulo de informacion extra del local-->
+
+        <article class="article">
+            <h2 class="article__subtittle">Expandiendo nuestros sabores!</h2>
+            <p class="article__text">Trabajamos mediantes pedidos por la web con envios a domicilio y take away, tambien podes venir a nuestras sucursales en persona! Te esperamos para disfrutar de las mejores Smash Burgers de la zona :D 
+            </p>
+        </article>
+
+                        <!--SECTION CON INFORMACION DE LAS SUCURSALES-->
+
+        <section id="sucursales">
+
+            <div class="sucur-tittle">
+                <h2 class="sucur-tittle__subtittle">Nuestras sucursales</h2>
+                <p class="sucur-tittle__text">( En proceso de expansion )</p>
+            </div>
+
+            <div class="sucurd-card">
+
+                <div class="sucurd-card__card">
+                    <h2 class="card__subtittle">Palermo</h2>
+                    <p>Cotagatia 3068</p>
+                    <p>Martes a domingos de 12 a 23hs</p>
+                </div>
+
+                <div class="sucurd-card__card"> 
+                    <h2>San justo</h2>
+                    <p>Arieta 3025</p>
+                    <p>Martes a domingos de 12 a 23hs</p>
+                </div>
+            </div>
+
+        </section>
+
+                        <!--SECTION DE INFORMACION DE NUESTROLOCAL-->
+
+        <section id="nuestrolocal" class="nuestrolocal">
+            <h2 class="nuestrolocal__subtittle">Nuestro local</h2>
+            <img class="nuestrolocal__img" src="img-hamburg/local.png" alt="imagen de la hamburgueseria">
+            <p class="nuestrolocal__text">Somos una hamburgueseria ubicada en San justo y con una nueva sucursal en Palermo. Nos dedicamos a la preparacion de Smash Burgers con pan artesanal y productos de primera calidad. Buscamos tener el mejor sabor para los mejores clientes, tratando de mantener un enfoque en el comfort de los mismos y dando la mejor atencion posible.</p>
+        </section>
+
+    </main>
+
+    <div class="frase">
+        <button class="frase__button" id="btn-generar">Generar Frase Aleatoria</button>
+    </div>
+
+    <div class="frase">
+        <p class="frase__text" id="frase"></p>
+    </div>
+                        <!--PIE DE PAGINA CON EL CONTACTO-->
+
+    <footer class="footer" id="contacto">
+
+        <a href="#">    <img class="footer__icon" src="img-hamburg/icon-burg.png" alt="icono de la empresa">  </a>
+
+        <ul class="footer__lista">
+            <li><a class="footer__link" href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            <li><a class="footer__link" href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a class="footer__link" href="/contacto/contacto.html" target="blank"><ion-icon name="mail-outline"></ion-icon></a></li>
+        </ul>
+    </footer>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
